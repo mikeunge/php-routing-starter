@@ -23,7 +23,7 @@ Everything that needs to be public should go in the `src/public/` folder, becaus
 When you freshly download/clone the package, make sure you run `npm install` so tailwindcss is available.
 After that, you can simply start the docker container with `docker-compose up`. When everythings finished, take a look at **localhost:8080**, you should be greated with a welcome message.
 
-### That's it!
+### That's it
 
 No, I'm not kidding, you can now go on and create your routes and views to your heart's content.
 
