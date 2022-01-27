@@ -6,8 +6,7 @@
 $layout = __DIR__.'/views/layouts/master.layout.php';
 
 //
-// Set a default values
-// (these can be edited inside the router)
+// Set some default values -- these can be edited later inside the router
 //
 $title = 'Default Tilte';
 $author = '@mikeunge';
