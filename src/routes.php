@@ -5,20 +5,15 @@
 //
 $request = $_SERVER['REQUEST_URI'];
 
+// 
+// Define config, load config
 //
-// Define the path to the master layout
-//
-$layout = __DIR__.'/views/layouts/master.layout.php';
+$config = __DIR__.'/config.php';
+require_once($config);
 
 //
-// Set a default values
-// (these can be edited inside the router)
+// Routing
 //
-$title = 'Default Tilte';
-$author = '@mikeunge';
-$description = 'Your description goes here';
-
-// routing
 switch ($request) {
     case '/' :
         $title = 'Homepage';
