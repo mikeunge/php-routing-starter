@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="/public/css/app.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
-	<body>
+	<body class="bg-gray-900">
 		<?php include($content); ?>
 	</body>
 </html>

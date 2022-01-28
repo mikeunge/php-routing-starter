@@ -1,4 +1,4 @@
-<div class="bg-gray-900">
+<div>
     <a href="/" class="absolute top-4 left-4 hover:scale-110 hover:transition-all antialiased">
         <div class="flex">
             <i class="material-icons mt-1 mr-1 text-gray-200" style="font-size: 18px;">arrow_back</i>
