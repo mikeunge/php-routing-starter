@@ -2,6 +2,8 @@
 
    RewriteEngine On
    RewriteRule ^(public) - [L]
+   RewriteCond %{HTTPS} off
+   RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
    RewriteCond %{REQUEST_FILENAME} -f [OR]
    RewriteCond %{REQUEST_FILENAME} !-f
    RewriteRule ^(.*)$ routes.php [L,QSA]
